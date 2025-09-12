@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 압축 파일 (원본 패키지 파일들)
+*.pkg
+*.ipsw
+
+# 추출된 디렉토리들
+Kernel_Debug_Kit_*/
+*_extracted/
+
+# 임시 디렉토리
+tmp/
+temp/
+
+# IDE 파일
+.vscode/
+.idea/
+*.sublime-*
+
+# 백업 파일
+*.bak
+*.backup
