@@ -26,7 +26,7 @@ macOS의 Kernel Debug Kit 패키지를 추출하고 분석하는 통합 스크�
 ```
 
 #### 지원하는 형식
-- **pbzx 압축**: Apple의 pbzx 압축 형식 (macOS 26+)
+- **pbzx 압축**: Apple의 pbzx 압축 형식
 - **gzip 압축**: 표준 gzip 압축
 - **xz 압축**: XZ 압축 형식
 - **bzip2 압축**: Bzip2 압축 형식
@@ -55,7 +55,7 @@ Kernel_Debug_Kit_xxx.pkg
 
 ### 2. 압축 형식 분석
 
-#### pbzx 형식 (macOS 26+)
+#### pbzx 형식
 - Apple이 개발한 압축 형식
 - 매직 바이트: `pbzx`
 - 헤더 구조:
